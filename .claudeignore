@@ -1,0 +1,17 @@
+# 認証情報・シークレット
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+secret_info/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:certiport.pearsonvue.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:anthropic.skilljar.com)",
+      "WebFetch(domain:claude.com)",
+      "WebSearch",
+      "Bash(py --version)",
+      "Bash(py:*)",
+      "mcp__datetime_server__get_current_datetime",
+      "mcp__weather_server__get_weather",
+      "Bash(xxd .gitignore)"
+    ]
+  }
+}
