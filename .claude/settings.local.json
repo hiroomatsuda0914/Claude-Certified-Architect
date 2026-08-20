@@ -11,7 +11,12 @@
       "Bash(py:*)",
       "mcp__datetime_server__get_current_datetime",
       "mcp__weather_server__get_weather",
-      "Bash(xxd .gitignore)"
+      "Bash(xxd .gitignore)",
+      "Bash(claude mcp:*)",
+      "Bash(python -m json.tool)",
+      "Bash(sort -k6,7)",
+      "Bash(cmd:*)",
+      "Skill(claude-api)"
     ]
   }
 }
