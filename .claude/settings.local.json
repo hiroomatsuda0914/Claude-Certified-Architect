@@ -16,7 +16,9 @@
       "Bash(python -m json.tool)",
       "Bash(sort -k6,7)",
       "Bash(cmd:*)",
-      "Skill(claude-api)"
+      "Skill(claude-api)",
+      "Bash(python:*)",
+      "Bash(pip install:*)"
     ]
   }
 }

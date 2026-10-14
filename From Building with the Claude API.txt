@@ -1,0 +1,44 @@
+=====================================
+1. 最優先で学習すべき「超重要章」（4選）
+
+Tool use with Claude
+
+理由: エージェントや拡張システムの根幹となる仕様です。ツールの定義（Schema）、レスポンスの処理、複数ツールの連携（Multi-turn conversations）は確実に押さえる必要があります。
+
+Features of Claude
+
+理由: Anthropic独自の強みが詰まった章です。特にPrompt caching（コスト・レイテンシ削減の要）やExtended thinking（推論モード）、PDF support/Citations、Code executionなどは構成案の最適化で必須知識となります。
+
+Prompt evaluation
+
+理由: 単なるプロンプト作成ではなく、「システムの精度をどう評価し、運用するか（Model-based / Code-based grading）」というアーキテクト視点の評価設計を学べる非常に価値の高い章です。
+
+Agents and workflows
+
+理由: Chaining、Parallelization、Routingといったエージェントの基本パターンの選定指針や「ワークフロー vs エージェント」の判断基準が体系化されており、設計問題で直結します。
+
+
+=====================================
+2. 学習状況に合わせて「選択的・効率的に進める章」
+Prompt engineering techniques
+
+対応: 既にプロンプト設計に慣れている場合は、「Structure with XML tags」 と 「Providing examples (Few-shot)」 のベストプラクティス部分だけサッと確認し、Quizで理解度チェックする程度で十分です。
+
+RAG and Agentic Search
+
+対応: RAGの基本概念（Chunking, Embeddings）を知っているなら「Implementing the RAG flow」「BM25 lexical search」「A Multi-Index RAG pipeline」などHybrid Searchや高度な構成例の部分だけ拾い読みするのがおすすめです。
+
+Model Context Protocol
+
+対応: 事前に『Introduction to Model Context Protocol』を修了しているため、重複する概念も多いはずです。クライアント実装やリソース定義など、未履修の実践的な実装部分のみに絞って進められます。
+
+
+=====================================
+3. スキップ・後回しにしてよい章
+Accessing Claude with the API
+
+基本的なAPIリクエストやSystem prompt、Temperatureなどの解説です。コードを叩いた経験があればQuizだけ受けて即完了にして問題ありません。
+
+Anthropic apps - Claude Code and computer use
+
+『Claude Code in Action』を完了しているため、復習要素が強くなります。Computer useの概要のみ軽く目を通す程度で問題ありません。

@@ -1,5 +1,10 @@
 # Claude Certified Architect — 学習プロジェクト設定
 
+## 試験シナリオ
+
+練習問題を出す際は **必ず `Scenarios.md` のいずれかのシナリオを前提として問題を作成すること**。
+シナリオの詳細は [`Scenarios.md`](./Scenarios.md) を参照。
+
 ## コーディングガイド
 
 ### 変数の命名規則（学習用）
