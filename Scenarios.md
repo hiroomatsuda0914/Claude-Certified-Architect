@@ -23,6 +23,13 @@
 Claude Agent SDK を使ってカスタマーサポートの解決エージェントを構築している。
 返品、請求トラブル、アカウント問題など曖昧度の高いリクエストを処理する。
 
+**シナリオ:**
+You are building a customer support resolution agent using the Claude Agent SDK. The agent handles
+high-ambiguity requests like returns, billing disputes, and account issues. It has access to your
+backend systems through custom Model Context Protocol (MCP) tools (get_customer, lookup_order,
+process_refund, escalate_to_human). Your target is 80%+ first-contact resolution while knowing when
+to escalate.
+
 **利用可能なMCPツール:**
 - `get_customer` — 顧客情報の取得
 - `lookup_order` — 注文の照会
@@ -44,6 +51,12 @@ Claude Agent SDK を使ってカスタマーサポートの解決エージェン
 Claude Code を使ってソフトウェア開発を加速している。
 コード生成、リファクタリング、デバッグ、ドキュメント作成に活用している。
 
+**シナリオ:**
+You are using Claude Code to accelerate software development. Your team uses it for code generation,
+refactoring, debugging, and documentation. You need to integrate it into your development workflow
+with custom slash commands, CLAUDE.md configurations, and understand when to use plan mode vs
+direct execution
+
 **課題:**
 - カスタムスラッシュコマンドの整備
 - `CLAUDE.md` の設定
@@ -60,6 +73,13 @@ Claude Code を使ってソフトウェア開発を加速している。
 **背景:**
 Claude Agent SDK を使ってマルチエージェントリサーチシステムを構築している。
 コーディネーターエージェントが専門サブエージェントに委任する構成。
+
+**シナリオ:**
+You are building a multi-agent research system using the Claude Agent SDK. A coordinator agent
+delegates to specialized subagents: one searches the web, one analyzes documents, one synthesizes
+findings, and one generates reports. The system researches topics and produces comprehensive,
+cited reports.
+
 
 **サブエージェント構成:**
 | エージェント | 役割 |
@@ -84,6 +104,13 @@ Claude Agent SDK を使ってマルチエージェントリサーチシステム
 Claude Agent SDK を使って開発者生産性ツールを構築している。
 エンジニアが不慣れなコードベースを探索・理解し、定型コードを生成・自動化するのを支援する。
 
+**シナリオ:**
+You are building developer productivity tools using the Claude Agent SDK. The agent helps engineers
+explore unfamiliar codebases, understand legacy systems, generate boilerplate code, and automate
+repetitive tasks. It uses the built-in tools (Read, Write, Bash, Grep, Glob) and integrates with Model
+Context Protocol (MCP) servers.
+
+
 **利用可能なビルトインツール:**
 - `Read` / `Write` / `Bash` / `Grep` / `Glob`
 - MCPサーバーとの統合
@@ -101,6 +128,12 @@ Claude Agent SDK を使って開発者生産性ツールを構築している。
 Claude Code を CI/CDパイプラインに統合している。
 自動コードレビュー、テストケース生成、プルリクエストへのフィードバック提供を行うシステム。
 
+**シナリオ:**
+You are integrating Claude Code into your Continuous Integration/Continuous Deployment (CI/CD)
+pipeline. The system runs automated code reviews, generates test cases, and provides feedback on
+pull requests. You need to design prompts that provide actionable feedback and minimize false
+positives.
+
 **課題:**
 - 実行可能なフィードバックを生成するプロンプト設計
 - 誤検知（False Positive）の最小化
@@ -116,6 +149,12 @@ Claude Code を CI/CDパイプラインに統合している。
 **背景:**
 Claude を使って構造化データ抽出システムを構築している。
 非構造化ドキュメントから情報を抽出し、JSONスキーマで検証、ダウンストリームシステムと統合する。
+
+**シナリオ:**
+You are building a structured data extraction system using Claude. The system extracts information
+from unstructured documents, validates the output using JavaScript Object Notation (JSON)
+schemas, and maintains high accuracy. It must handle edge cases gracefully and integrate with
+downstream systems.
 
 **要件:**
 - エッジケースの適切な処理
