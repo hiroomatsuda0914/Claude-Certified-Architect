@@ -83,7 +83,7 @@ The ideal candidate is a solution architect who designs and implements productio
 
 ## 5. Exam Scenarios
 
-> 詳細は **[Scenarios.md](./Scenarios.md)** を参照。6シナリオから4つがランダムに出題される。
+> 詳細は **[quiz/Scenarios.md](./quiz/Scenarios.md)** を参照。6シナリオから4つがランダムに出題される。
 
 | # | シナリオ名 | 主要ドメイン |
 |---|-----------|------------|

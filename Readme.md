@@ -1,0 +1,1 @@
+geminiは、CLAUDE.mdと.claudeignoreを参照してください。

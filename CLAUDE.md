@@ -1,27 +1,15 @@
 # Claude Certified Architect — 学習プロジェクト設定
 
-## 試験シナリオ
+ユーザーは Claude Certified Architect Foundations の試験合格に向けて学習しています。
+練習問題とハンズオンはディレクトリを分けています。同じディレクトリにある `CLAUDE.md` と `CURSOR.md` の本文は同じです。
 
-練習問題を出す際は **必ず `Scenarios.md` のいずれかのシナリオを前提として問題を作成すること**。
-シナリオは編集せず、そのまま使用すること。
-シナリオの詳細は [`Scenarios.md`](./Scenarios.md) を参照。
-シナリオと問題と解答は英語、解説の依頼があった場合は日本語としてください。
-練習問題は本番レベルの難易度で、選択肢は消去法で正解が選べないように紛らわしいものとすること。
+## 練習問題
 
-問題文には、正解を一意に定めるために必要な制約を明示すること。特に以下の点が曖昧だと複数の選択肢が正解になりうるため注意する。
-- 下流システムの要件（null を許容するか、欠損値を人間レビューに回すか等）
-- 介入のレイヤー（プロンプトレベルか、スキーマレベルか、後処理か）
-- 対象の優先基準（レイテンシ重視か、精度重視か等）
+練習問題の依頼が来た場合は、`quiz/CLAUDE.md` と `quiz/CURSOR.md` に従ってください。
 
-ユーザーが「始めてください」と入力したら、[`CURSOR.md`](./CURSOR.md) に従って練習問題を1問出す。そのセッションで初めて出すときだけ、`CURSOR.md`、[`Scenarios.md`](./Scenarios.md)、[`cursor_study_progress.md`](./cursor_study_progress.md) を読む。[`test_objectives.md`](./test_objectives.md) はセッション開始時には読まない。同じセッションの2問目以降は、これらのファイルを読み直さない。
+- シナリオは `quiz/Scenarios.md`
+- 学習進捗は `quiz/cursor_study_progress.md`
 
-ユーザーの回答の結果は、以下に記録してください。
-"C:\Users\matsuda.hiro\Desktop\Claude Certified Architect\cursor_study_progress.md"
+## ハンズオン
 
- - 正解した場合は、"ドメイン別の正答率" を更新してください。
- - 間違った、あるいは回答できなかった場合は、"誤答メモ"に追記してください。
- - 誤答メモに記載してある観点に正解した場合は、"誤答メモ"のセクションから削除してください。
- - 合計も更新する
- - シナリオ別出題数も更新する
- - Test Objectivesのカバレッジは、正誤に限らず出題したら [`test_objectives.md`](./test_objectives.md) を読んで更新する（セッション開始時は読まない）。
- - CursorとClaudeで並行して編集しているので、出題数の更新時には、単純にその時点のファイルの状態から更新をすれば良い。（更新前の状態との比較は不要）。
+ハンズオンの依頼が来た場合は、`code/CLAUDE.md` と `code/CURSOR.md` に従ってください。
